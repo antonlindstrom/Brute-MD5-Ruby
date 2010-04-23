@@ -11,10 +11,10 @@ class Brute
     @maxchar = 14  
     @chars = ("a".."z").to_a + ("A".."Z").to_a + ("0".."9").to_a
     
-		db_init("hash_table.db") if with_db
+    db_init("hash_table.db") if with_db
 
-		@with_db = with_db	
-		
+    @with_db = with_db  
+    
   end
 
   def crack (password)
@@ -22,9 +22,9 @@ class Brute
     @password = password
     @found = false
     
-		if @with_db
-    	return true if db_check
-		end
+    if @with_db
+      return true if db_check
+    end
 
     for i in (0..@maxchar)
       return true if @found

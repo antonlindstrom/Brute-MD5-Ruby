@@ -1,4 +1,14 @@
+MD5-Brute:
+======
+Going through the chars in @char and using md5 to find if the string matches.
+If the class is initialized with the bool true (var with_db) then the tries will be saved in
+a sqlite database for faster lookups. The first try will go slower though.
 
+Have not had the time to optimize or think about it so much, it works and that's all right
+with me. 
+
+License
+======
 Written by Anton Lindström and is released under;
 
  The MIT License
@@ -21,15 +31,4 @@ Written by Anton Lindström and is released under;
  OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
  THE SOFTWARE.
 
- http://www.opensource.org/licenses/mit-license.php
-
-
-
-_DESCRIPTION OF PROGRAM:_
-
-Going through the chars in @char and using md5 to find if the string matches.
-If the class is initialized with the bool true (var with_db) then the tries will be saved in
-a sqlite database for faster lookups. The first try will go slower though.
-
-Have not had the time to optimize or think about it so much, it works and that's all right
-with me. 
+ [http://www.opensource.org/licenses/mit-license.php](http://www.opensource.org/licenses/mit-license.php)

@@ -1,4 +1,4 @@
-MD5-Brute:
+MD5 Brute Description:
 ======
 Going through the chars in @char and using md5 to find if the string matches.
 If the class is initialized with the bool true (var with_db) then the tries will be saved in

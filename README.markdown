@@ -9,8 +9,6 @@ with me.
 
 License
 ======
-Written by Anton Lindström and is released under;
-
  The MIT License
 
  Permission is hereby granted, free of charge, to any person obtaining a copy
@@ -32,3 +30,7 @@ Written by Anton Lindström and is released under;
  THE SOFTWARE.
 
  [http://www.opensource.org/licenses/mit-license.php](http://www.opensource.org/licenses/mit-license.php)
+
+Authors
+======
+Anton Lindström ([Website](http://antonlindstrom.com))
